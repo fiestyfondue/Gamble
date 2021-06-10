@@ -7,11 +7,10 @@ namespace Gamble
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Gambling Game");
-            int Stake = 100;
-            int bet = 1;
-            int Noofdays = 100;
+            const int Stake = 100;
+            const int bet = 1;
 
-            Console.Write("The gambler has " + Stake + "with him and he is ready to bet " + bet + "EveryDay for " + Noofdays + "days");
+            Console.Write("The gambler has " + Stake + "with him and he is ready to bet " + bet + "EveryDay ");
             Console.ReadLine();
         }
             
