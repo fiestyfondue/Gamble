@@ -12,8 +12,8 @@ namespace Gamble
         {
             const int win = 0;
             const int Lose = 1;
-            int loseMax = Cash - Goal;
-            int winGoal = Cash + Goal;
+            int loseMax = ((Cash / 100) * Goal) - Cash ;
+            int winGoal = ((Cash / 100) * Goal) + Cash;
             int gamblerStake = Cash;
             Random random = new Random();
             int game;
